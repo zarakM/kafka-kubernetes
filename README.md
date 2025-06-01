@@ -63,6 +63,14 @@ kubectl delete -f kafka.yaml
 kubectl delete -f zookeeper.yaml
 ```
 
+## Notes
+
+- This setup is for **development and testing only**.
+- No persistent storage is configured.
+- No authentication or TLS.
+- For production, consider using [Strimzi](https://strimzi.io/) or [Confluent Operator](https://docs.confluent.io/operator/current/overview.html).
+
+
 ## Contributing
 Feel free to open issues or submit pull requests to improve this setup.
 
