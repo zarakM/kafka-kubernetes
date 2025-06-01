@@ -1,4 +1,3 @@
-```markdown
 # Kafka on Kubernetes
 
 This repository provides the **most basic way** to deploy **Apache Kafka** on **Kubernetes**, ensuring a straightforward setup for development and testing environments.
