@@ -8,11 +8,18 @@ This repository provides the **most basic way** to deploy **Apache Kafka** on **
 - Includes **Zookeeper** for Kafka coordination
 - Basic YAML manifests for easy application
 
+## Files
+
+- `zookeeper.yaml` – Zookeeper Deployment manifest
+- `zooservice.yaml` – Zookeeper Service manifest
+- `kafka-docker.yaml` – Kafka Deployment manifest
+- `kafka-service.yaml` – Kafka Service manifest
+
+
 ## Prerequisites
 Before deploying Kafka, ensure you have:
-- A running **Kubernetes cluster**
-- `kubectl` installed and configured
-- **Helm** (optional, for managing dependencies)
+- A running Kubernetes cluster (e.g., Minikube, kind, GKE, EKS, AKS, etc.)
+- `kubectl` configured to access your cluster
 
 ## Deployment Steps
 1. **Clone the repository**:
